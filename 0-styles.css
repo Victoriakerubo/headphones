@@ -1,33 +1,62 @@
+/* styles.css */
 body {
-    font-family: sans-serif;
-    }
-    
-    header {
-    background-color: #fff;
-    padding: 20px;
-    }
-    
-    .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    }
-    
-    img {
-    width: 100px;
-    }
-    
-    nav {
-    list-style: none;
-    }
-    
-    nav a {
-    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
-    color: #000;
+    background-color: #f0f0f0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+nav a {
     text-decoration: none;
-    }
-    
-    nav a:hover {
-    background-color: #eee;
-    }
-    
+    color: #333;
+}
+
+.main {
+    background-image: url('C:\Users\Vk\AppData\Local\Temp\Rar$DIa12104.22985\headphones_hero_1.jpg');
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.call-to-action {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.action-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+}
