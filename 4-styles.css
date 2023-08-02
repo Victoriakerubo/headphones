@@ -126,7 +126,7 @@ nav a {
 }
 
 .main {
-    background-image: url('C:\Users\Vk\AppData\Local\Temp\Rar$DIa12104.22985\headphones_hero_1.jpg');
+    background-image: C:\Users\Vk\AppData\Local\Temp\Rar$DIa10264.19212\favicon.png;
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -228,3 +228,44 @@ p {
 .contact-form button:hover {
     background-color: #0056b3;
 }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
